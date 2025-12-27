@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: macro
+
+  mvc:
+    servlet:
+      path: /api/v1
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dolphin
+    username: postgres
+    password: postgres
+
+  jpa:
+    show-sql: true
+
+jwt:
+  secret: M0RrQ1pJNk1JQUZqV0pGQW1wQWJvVmxjT3dDQU5mR1g=
+
